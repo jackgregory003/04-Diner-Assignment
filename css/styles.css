@@ -446,12 +446,48 @@ footer {
   text-align: center;
   line-height: 150%;
 }
-footer a {
+footer .contact p {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+footer .contact ion-icon {
+  color: red;
+  padding-right: 10px;
+}
+footer .contact .social {
+  display: flex;
+  justify-content: center;
+}
+footer .contact .social a {
+  display: block;
+  border: solid 1px #666;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: purple;
+}
+footer .contact .location {
+  font-size: 1.5rem;
+}
+footer .contact a {
   color: #ccc;
+}
+footer .contact p.legal {
+  margin: 0;
+  font-weight: 300;
+  text-align: center;
 }
 
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
+  div.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  div.allcards section {
+    flex-basis: calc(50% - 5px);
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
@@ -471,5 +507,8 @@ footer a {
   }
   ul.menuLinks a:hover {
     background-color: #7c1d47;
+  }
+  div.allcards section {
+    flex-basis: calc(33.333% - 6.6666666667px);
   }
 }

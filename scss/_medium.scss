@@ -1,1 +1,10 @@
 /* NAVIGATION STUFF GOES HERE  */
+div.allcards {
+display: flex;
+flex-wrap: wrap;
+gap: $gutter;
+section{
+    flex-basis: calc(50% - ($gutter /2))
+}
+
+}

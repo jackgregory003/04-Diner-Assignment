@@ -178,5 +178,46 @@ footer {
     color: $greyColor;
     text-align: center;
     line-height: $leading;
+    section {
+
+
+
+
+
+    }
+    .contact {
+        p{font-size: 1.2rem; margin: .5rem;}
+        ion-icon{color: red; padding-right: 10px;
+
+
+    }//end of contact
+    
+    .social {
+        display: flex;
+        justify-content: center;
+        a{
+          display: block;
+          border: solid 1px #666;
+          font-size: 2rem;
+          margin: .5rem;
+          padding: .5rem;
+          color: purple;
+        }
+    }//end of social
+    
+    .location{
+        font-size:1.5rem;
+    }//end of location
+
+
     a {color: $greyColor;}
+    p.legal{
+        margin: 0;
+        font-weight: $lightWeight;
+        text-align: center;
+    }
+
+
 }// end footer
+
+}
