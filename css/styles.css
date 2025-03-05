@@ -441,24 +441,24 @@ main .allcards section a {
 
 footer {
   font-size: 0.85rem;
-  padding: 1rem 10px;
+  padding: 0.5rem 10px;
   color: #ccc;
   text-align: center;
   line-height: 150%;
 }
-footer .contact p {
+footer section .contact p {
   font-size: 1.2rem;
   margin: 0.5rem;
 }
-footer .contact ion-icon {
+footer section .contact ion-icon {
   color: red;
-  padding-right: 10px;
+  padding-right: 5px;
 }
-footer .contact .social {
+footer section .social {
   display: flex;
   justify-content: center;
 }
-footer .contact .social a {
+footer section .social a {
   display: block;
   border: solid 1px #666;
   font-size: 2rem;
@@ -466,13 +466,13 @@ footer .contact .social a {
   padding: 0.5rem;
   color: purple;
 }
-footer .contact .location {
+footer section .location {
   font-size: 1.5rem;
 }
-footer .contact a {
+footer section a {
   color: #ccc;
 }
-footer .contact p.legal {
+footer section p.legal {
   margin: 0;
   font-weight: 300;
   text-align: center;
@@ -488,10 +488,15 @@ footer .contact p.legal {
   div.allcards section {
     flex-basis: calc(50% - 5px);
   }
+  div.allcards footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 64rem) {
   header, nav, main {
-    max-width: 960px;
+    width: 100%;
     margin: auto;
   }
   /* NAVIGATION STUFF GOES HERE  */
@@ -510,5 +515,9 @@ footer .contact p.legal {
   }
   div.allcards section {
     flex-basis: calc(33.333% - 6.6666666667px);
+  }
+  div.allcards footer div {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }

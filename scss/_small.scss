@@ -174,22 +174,14 @@ main {
 
 footer {
     font-size: .85rem;
-    padding: 1rem $gutter;
+    padding: 0.5rem $gutter;
     color: $greyColor;
     text-align: center;
     line-height: $leading;
     section {
-
-
-
-
-
-    }
     .contact {
         p{font-size: 1.2rem; margin: .5rem;}
-        ion-icon{color: red; padding-right: 10px;
-
-
+        ion-icon{color: red; padding-right: 5px;}
     }//end of contact
     
     .social {
@@ -216,8 +208,6 @@ footer {
         font-weight: $lightWeight;
         text-align: center;
     }
-
+    }    
 
 }// end footer
-
-}
