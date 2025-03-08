@@ -29,6 +29,12 @@ div.allcards {
 footer div {
 
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns:auto auto auto;
     align-items: center;
-  }
+  
+
+  .location{
+    font-size: 1.5rem;
+}//end of location
+
+}
